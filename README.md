@@ -58,3 +58,10 @@ Its a open source platform used to author workflows as Directed Acyclic Graphs (
 
 ![Capture](https://user-images.githubusercontent.com/59846364/125050396-ea30f200-e06f-11eb-8d26-8a78c276c515.PNG)
 
+
+# References
+
+https://www.psycopg.org/install/
+https://airflow.apache.org/docs/apache-airflow/stable/installation.html
+https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions
+
