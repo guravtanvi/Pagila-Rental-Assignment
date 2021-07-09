@@ -1,10 +1,16 @@
 # Pagila-Rental-Assignment
 
-## Pipeline Architecture:
+## Table of Contents
+* [Architecture](#architecture)
+* [UseCase](#usecase)
+* [Pipeline](#pipeline)
+* [Airflow](#airflow)
+
+## Architecture:
 
 ![Untitled Diagram (1)](https://user-images.githubusercontent.com/59846364/125049481-054f3200-e06f-11eb-8525-aef8f54ecaf9.png)
 
-## Use Case
+## UseCase
 
 Our task here is to achieve the total number of movie rentals rented out in a given week along with the rentals returned in the same given week.
 The sample pagila database consist of a rental table which has the listing of all the rentals with its return date, customer_id, inventory_id, etc.
@@ -20,7 +26,7 @@ Thereby, we achieve our goal by:
 
 
   
- ## Pipeline Tasks:
+ ## Pipeline:
  
  #### Task 1: Database Connectivity
  We start by checking if the connection to both source and destination database are successful.
