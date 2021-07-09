@@ -9,12 +9,12 @@
 
 ## Folder Structure
 
-`config.py`: Configuration parameters like hostname, username, passwords, etc
-`tasks.py`: Contains the all the functions to implement the tasks
-`pipeline-airflow.py`: Contains airflow DAG code
-`pipeline.py`: Contains the pipeline logic using Scikit-learn Pipeline (backup pipeline)
-`ddl-schema.sql`: Contains the sql scripts for schema creation
-`requirements.txt`: Dependencies that needs to be installed
+- `config.py`: Configuration parameters like hostname, username, passwords, etc
+- `tasks.py`: Contains the all the functions to implement the tasks
+- `pipeline-airflow.py`: Contains airflow DAG code
+- `pipeline.py`: Contains the pipeline logic using Scikit-learn Pipeline (backup pipeline)
+- `ddl-schema.sql`: Contains the sql scripts for schema creation
+- `requirements.txt`: Dependencies that needs to be installed
 
 
 ## Architecture:
