@@ -1,6 +1,7 @@
 # Pagila-Rental-Assignment
 
 ## Table of Contents
+* [FolderStructure](#folderstructure)
 * [Architecture](#architecture)
 * [UseCase](#usecase)
 * [Pipeline](#pipeline)
@@ -8,13 +9,13 @@
 
 ## Folder Structure
 
-├── .gitignore
-├── config.py
-├── ddl-schema.sql
-├── pipeline.py
-├── pipeline-airflow.py
-├── requirements.txt
-└── welcome.gif
+`config.py`: Configuration parameters like hostname, username, passwords, etc
+`tasks.py`: Contains the all the functions to implement the tasks
+`pipeline-airflow.py`: Contains airflow DAG code
+`pipeline.py`: Contains the pipeline logic using Scikit-learn Pipeline (backup pipeline)
+`ddl-schema.sql`: Contains the sql scripts for schema creation
+`requirements.txt`: Dependencies that needs to be installed
+
 
 ## Architecture:
 
