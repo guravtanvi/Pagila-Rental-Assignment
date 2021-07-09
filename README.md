@@ -1,11 +1,18 @@
 # Pagila-Rental-Assignment
 
 ## Table of Contents
-* [FolderStructure](#folderstructure)
+
 * [Architecture](#architecture)
+* [FolderStructure](#folderstructure)
 * [UseCase](#usecase)
 * [Pipeline](#pipeline)
 * [Airflow](#airflow)
+
+
+
+## Architecture:
+
+![Untitled Diagram (1)](https://user-images.githubusercontent.com/59846364/125049481-054f3200-e06f-11eb-8525-aef8f54ecaf9.png)
 
 ## Folder Structure
 
@@ -16,10 +23,6 @@
 - `ddl-schema.sql`: Contains the sql scripts for schema creation
 - `requirements.txt`: Dependencies that needs to be installed
 
-
-## Architecture:
-
-![Untitled Diagram (1)](https://user-images.githubusercontent.com/59846364/125049481-054f3200-e06f-11eb-8525-aef8f54ecaf9.png)
 
 ## UseCase
 
