@@ -22,10 +22,10 @@ Thereby, we achieve our goal by:
   
  ## Pipeline Tasks:
  
- ### Task 1: Database Connectivity
+ #### Task 1: Database Connectivity
  We start by checking if the connection to both source and destination database are successful.
  
- ### Task 2: Aggregating Data
+ #### Task 2: Aggregating Data
  We aggregated the data based on the use case defined above using the below SQL query:
  
  ```
