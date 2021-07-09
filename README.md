@@ -39,6 +39,15 @@ FROM rental
 GROUP BY date_trunc('week', rental_date)
 ORDER BY WeekBeginning;
  ```
+
+#### Populating the incremental changes
+
+We have three scenarios for loading data into our rollup database
+
+##### Initial Load: This occurs when the destination table is empty in other words its loading the data for the first time.
+##### New Records: This occurs when we have data added for new weeks which is not yet loaded into the rollup database.
+##### Updates: This occurs if the existing counts of OutstandingRentals or ReturnedRentals are modified.
+  
   
 ## Airflow:
 
