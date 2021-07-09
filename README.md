@@ -9,11 +9,8 @@
 ## Folder Structure
 
 ├── .gitignore
-
 ├── config.py
-
 ├── ddl-schema.sql
-
 ├── pipeline.py
 ├── pipeline-airflow.py
 ├── requirements.txt
