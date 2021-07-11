@@ -1,4 +1,4 @@
-# Pagila-Rental-Assignment
+# Pagila-Rental-Pipeline
 
 ## Table of Contents
 
